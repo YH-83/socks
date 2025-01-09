@@ -2,9 +2,6 @@
 
 # سكربت Bash لتثبيت وإعداد خادم SOCKS مع مصادقة اسم المستخدم وكلمة المرور باستخدام Dante
 
-echo "تحديث النظام..."
-sudo apt update && sudo apt upgrade -y
-
 echo "تثبيت خادم Dante..."
 sudo apt install dante-server -y
 
